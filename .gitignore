@@ -1,0 +1,37 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+*.log
+
+# Django
+*.log
+*.pot
+*.py[cod]
+*.swp
+*.bak
+*.orig
+*.database
+*.cache
+*.env
+*.venv
+*.egg
+*.eggs
+*.wsgi
+
+# Django tenant-specific files
+*.tenant
+*.tenantbak
+
+# Docker
+.docker/
+docker-compose.override.yml
+docker-compose.yml
+
+# Virtual Environments
+venv/
+env/
+.env/
