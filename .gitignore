@@ -22,16 +22,5 @@ __pycache__/
 *.eggs
 *.wsgi
 
-# Django tenant-specific files
-*.tenant
-*.tenantbak
-
-# Docker
-.docker/
-docker-compose.override.yml
-docker-compose.yml
-
 # Virtual Environments
-venv/
-env/
-.env/
+/venv/
